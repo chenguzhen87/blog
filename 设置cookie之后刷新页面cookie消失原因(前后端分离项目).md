@@ -18,7 +18,9 @@ session.setAttribute(Constants.LOGIN_USER_DTO, loginUserDto);
 创建会话，JSESSIONID通过Cookies形式传到前台，但是cookies的Path路径设置为'/XYLMis'，当刷新页面时，cookie存放在'/XYLMis'下，导致'http://ui.56xyl.com:8000/'下没有权限查看'http://ui.56xyl.com:8000/XYLMis'下cookie，导致看不到cookie。
 
 ## 结论及解决方案
-把cookies的Path设置为'/'，或者启动项目加上'/XYLMis'项目名。
+把cookies的Path设置为'/'。
+- 前端项目启动加上'/XYLMis'项目名,后端项目启动有'/XYLMis'项目名
+- 前端项目启动没有'/XYLMis',后端项目启动无'/XYLMis'项目名
 
  
 
