@@ -3,7 +3,7 @@
 
    <!-- 声明文档使用的字符编码 -->
     <meta charset='utf-8'>
-    <!-- 优先使用 IE 最新版本和 Chrome -->
+    <!-- 优先使用 IE 最新版本和 Chrome 解析渲染-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <!-- 页面描述 -->
     <meta name="description" content="不超过150个字符"/>
