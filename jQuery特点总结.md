@@ -13,7 +13,7 @@
 ![出色的DOM操作封装](/images/dom-api-pic4.png)
 ![出色的DOM操作封装](/images/dom-api-pic5.png)
 
-* 强大的选择器（复杂先择器用到sizzle）
+* 强大的选择器（复杂选择器用到sizzle）
 
 ![强大的选择器](/images/selector1.jpg)
 ![强大的选择器](/images/selector2.jpg)
