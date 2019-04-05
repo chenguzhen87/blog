@@ -47,6 +47,7 @@ $('#id').css('width','100px').addClass('test');
 3、each方法：大部分情况下是不需要使用each方法的，因为jquery有隐式迭代的特性，但是如果要对每个元素做不同的处理就要用到each方法了
 
 * 链式操作
+
 JQuery的易扩展性，吸引了来自全球开发者来编写JQuery的扩展插件。
 
 
