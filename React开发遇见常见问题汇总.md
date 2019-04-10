@@ -19,4 +19,5 @@
 
 解决方法
 在componentWillMount钩子函数移除事件监听
+
 ![React报错信息](/images/react-common-err3.jpg)
