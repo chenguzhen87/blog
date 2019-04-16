@@ -9,9 +9,9 @@
 报错信息截图
 ![React报错信息](/images/react-common-err1.jpg)
 
-我写代码截图
+我写代码
 
-![React报错信息](/images/react-common-err2.jpg)
+![React报错信息](/images/20190416113620.jpg)
 
 分析出现问题的原因
 
@@ -20,7 +20,7 @@
 解决方法
 在componentWillMount钩子函数移除事件监听
 
-![React报错信息](/images/react-common-err3.jpg)
+![React报错信息](/images/20190416113638.jpg)
 
 * React报错信息：index.js:1 Warning: React does not recognize the `dockName` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `dockname` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
 
