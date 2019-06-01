@@ -22,7 +22,7 @@
 
 ![娄永琪](/images/seeconf/IMG_20190105_173601.png)
 
-* 娄永琪
+* 周姮
 
 ![周姮](/images/seeconf/IMG_20190105_173602.jpg)
 
@@ -78,20 +78,20 @@
 ![悠鹤](/images/seeconf/IMG_20190105_170901.jpg)
 
 * 工作人员合影
-* 
+  
 ![工作人员合影](/images/seeconf/2019-01-05192306.jpg)
 
 * 大会参会者集体合影
-* 
+  
 ![工作人员合影](/images/seeconf/IMG_20190105_173608.jpg)
 
 
 * 我与玉伯合影
-* 
+  
 ![工作人员合影](/images/seeconf/IMG_20190105_172608.jpg)
 
 * 我与云谦合影
-* 
+  
 ![工作人员合影](/images/seeconf/IMG_20190105_173509.jpg)
 
 
