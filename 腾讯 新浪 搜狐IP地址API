@@ -1,0 +1,14 @@
+腾讯的IP地址API接口地址：http://fw.qq.com/ipaddress
+返回的是数据格式为：
+
+  var IPData = new Array(“58.218.198.205″,”",”江苏省”,”徐州市”); 
+
+使用JS代码进行调取：
+
+ <script language="javascript" type="text/javascript" src="http://fw.qq.com/ipaddress"></script> <script>document.write("你的IP是："+IPData[0]+"，来自："+IPData[2]);</script> 
+
+新浪的IP地址查询接口：http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js
+新浪多地域测试方法：http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&ip=12.130.132.30
+搜狐IP地址查询接口（默认GBK）：http://pv.sohu.com/cityjson
+搜狐IP地址查询接口（可设置编码）：http://pv.sohu.com/cityjson?ie=utf-8
+搜狐另外的IP地址查询接口：http://txt.go.sohu.com/ip/soip
