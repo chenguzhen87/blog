@@ -15,7 +15,7 @@ koa应用初始化：
 同时在context.request,context.responce,添加ctx上下文；
 
 第二：
-调用koa实例对象handleRequest方法，该方法调用注册中间件进午处理，处理之后调用koa实例对象respond方法响应输出。
+调用koa实例对象handleRequest方法，该方法调用注册中间件进行处理，处理之后调用koa实例对象respond方法响应输出。
 
 中间件处理流程：
 koa2会先按照中间件注册顺序执行next()之前的代码, 执行完到底部之后, 返回往前执行next()之后的代码，中间件执行逻辑在compose方法，
