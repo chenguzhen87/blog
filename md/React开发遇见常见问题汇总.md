@@ -7,11 +7,11 @@
 上面报错大概意思是：我们不能在组件销毁后操作state，这是一个禁忌，容易出现内存泄漏的情况，若要修复，请取消组件中的所有订阅和异步任务
 
 报错信息截图
-![React报错信息](/images/react-common-err1.jpg)
+![React报错信息](./images/react-common-err1.jpg)
 
 我写代码
 
-![React报错信息](/images/20190416113620.jpg)
+![React报错信息](./images/20190416113620.jpg)
 
 分析出现问题的原因
 
@@ -20,14 +20,14 @@
 解决方法
 在componentWillMount钩子函数移除事件监听
 
-![React报错信息](/images/20190416113638.jpg)
+![React报错信息](./images/20190416113638.jpg)
 
 * React报错信息：index.js:1 Warning: React does not recognize the `dockName` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `dockname` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
 
 中文翻译：react无法识别dom元素上的“dockname”属性。如果您有意希望它作为自定义属性出现在DOM中，请将其拼写为小写的“dockname”。如果不小心从父组件传递了它，请将其从dom元素中移除。
 
 报错信息截图
-![React报错信息](/images/20190415152557.jpg)
+![React报错信息](./images/20190415152557.jpg)
 
 解决方法
 dom元素上属性'dockName'名称改成小写'dockname'

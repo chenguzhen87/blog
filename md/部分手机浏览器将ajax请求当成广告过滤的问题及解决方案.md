@@ -8,11 +8,11 @@
 
 * 修改前代码截图  
 
-![修改前代码截图](/images/jietu-before.png)
+![修改前代码截图](./images/jietu-before.png)
 
 * 修改后代码截图 
 
-![修改后代码截图](/images/jietu-after.png)
+![修改后代码截图](./images/jietu-after.png)
 
 ## 结论及解决方案
  部分手机浏览器将ajax请求url路径或data中参数中含有’ad‘字母请求拦截了。把url路径和data中参数名更改不含’ad‘字母。

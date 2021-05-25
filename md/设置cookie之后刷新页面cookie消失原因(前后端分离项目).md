@@ -4,10 +4,10 @@
 ## 现象描述：
 
 * 页面刷新前截图
-![页面刷新前](/images/cookie-refresh-before.png)
+![页面刷新前](./images/cookie-refresh-before.png)
 
 * 页面刷新后截图
-![页面刷新后](/images/cookie-refresh-after.png)
+![页面刷新后](./images/cookie-refresh-after.png)
 
 
 ## 原因描述

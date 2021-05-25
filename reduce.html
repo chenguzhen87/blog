@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reduce 用法总结</title>
+</head>
+
+<body>
+    <script>
+
+        var arr = [3, 9, 4, 3, 6, 0, 9];
+        // 求数组项之和
+        var sum = arr.reduce(function (prev, cur) {
+            return prev + cur;
+        }, 0);
+
+        console.log('sum:%s', sum);
+
+        // 求数组项最大值
+
+        var max = arr.reduce(function (prev, cur) {
+            // return Math.max(prev,cur);
+            return prev > cur ? prev : cur;
+        })
+
+        console.log('max:%s', max);
+
+        // 数组去重 
+
+        var newArr = arr.reduce(function (prev, cur) {
+            prev.indexOf(cur) === -1 && prev.push(cur);
+            return prev;
+        }, [])
+
+        // 数组对象中的用法 - 比如生成“老大、老二和老三” 
+
+        const objArr = [{ name: '老大' }, { name: '老二' }, { name: '老三' }];
+        const res = objArr.reduce((pre, cur, index, arr) => {
+            if (index === 0) {
+                return cur.name;
+            }
+            else if (index === (arr.length - 1)) {
+                return pre + '和' + cur.name;
+            }
+            else {
+                return pre + '、' + cur.name;
+            }
+        }, '');
+
+        console.log('res:%s', res)
+        // 求字符串中字母出现的次数
+        const str = 'sfhjasfjgfasjuwqrqadqeiqsajsdaiwqdaklldflas-cmxzmnha';
+        const calObj = str.split('').reduce((accumulator, cur) => {
+            accumulator[cur] ? accumulator[cur]++ : accumulator[cur] = 1;
+            return accumulator;
+        }, {});
+        console.log('res:%o', calObj)
+
+        // 数组转数组
+        var arr1 = [2, 3, 4, 5, 6]; // 每个值的平方
+        var newarr = arr1.reduce((accumulator, cur) => {
+            accumulator.push(cur * cur);
+            return accumulator;
+        }, []);
+
+        console.log('newarr:%o', newarr);
+
+        // 数组转对象
+        var streams = [{ name: '技术', id: 1 }, { name: '设计', id: 2 }];
+        var obj = streams.reduce((accumulator, cur) => {
+            accumulator[cur.id] = cur;
+            return accumulator;
+        }, {});
+
+        console.log('obj%o', obj)
+
+        // 多维的叠加执行操作 - 各科成绩占比重不一样， 求结果
+
+        var result = [
+            { subject: 'math', score: 88 },
+            { subject: 'chinese', score: 95 },
+            { subject: 'english', score: 80 }
+        ];
+        var dis = {
+            math: 0.5,
+            chinese: 0.3,
+            english: 0.2
+        };
+        var score = result.reduce((accumulator, cur) => dis[cur.subject] * cur.score + accumulator, 0);
+
+        console.log('score:%s', score)
+
+        // 扁平一个二维数组
+
+        var arr = [[1, 2, 8], [3, 4, 9], [5, 6, 10]];
+        var flatArr = arr.reduce((x, y) => x.concat(y), []);
+        console.log('flatArr:%o', flatArr);
+
+        function compose(...funs) {
+            if (funs.length === 0) {
+                return arg => arg;
+            }
+            if (funs.length === 1) {
+                return funs[0];
+            }
+            return funs.reduce((a, b) => (...arg) => a(b(...arg)))
+
+        }
+
+        function a(a) {
+            return 'a'
+        }
+
+        function b(b) {
+            console.log(b)
+            return 'b'
+        }
+
+        function c(...c) {
+            console.log(c)
+            return 'c'
+        }
+
+        var cp = compose(a, b, c);
+
+        console.log(cp('a', 'b'))
+
+
+    </script>
+</body>
+
+</html>

@@ -11,87 +11,87 @@
 
 * 签到版
   
-![签到版](/images/seeconf/2019-01-05193926.jpg)
+![签到版](./images/seeconf/2019-01-05193926.jpg)
 
 
 * 玉伯
 
-![玉伯](/images/seeconf/IMG_20190105_173600.jpg)
+![玉伯](./images/seeconf/IMG_20190105_173600.jpg)
 
 * 娄永琪
 
-![娄永琪](/images/seeconf/IMG_20190105_173601.png)
+![娄永琪](./images/seeconf/IMG_20190105_173601.png)
 
 * 周姮
 
-![周姮](/images/seeconf/IMG_20190105_173602.jpg)
+![周姮](./images/seeconf/IMG_20190105_173602.jpg)
 
 * 梓义
 
-![梓义](/images/seeconf/IMG_20190105_173603.jpg)
+![梓义](./images/seeconf/IMG_20190105_173603.jpg)
 
 * 林峰
 
-![林峰](/images/seeconf/IMG_20190105_173604.jpg)
+![林峰](./images/seeconf/IMG_20190105_173604.jpg)
 
 * 王锐
 
-![王锐](/images/seeconf/IMG_20190105_173605.png)
+![王锐](./images/seeconf/IMG_20190105_173605.png)
 
 
 * 米法
 
-![米法](/images/seeconf/IMG_20190105_173606.jpg)
+![米法](./images/seeconf/IMG_20190105_173606.jpg)
 
 
 * 云谦 
 
-![云谦](/images/seeconf/IMG_20190105_173607.jpg)
+![云谦](./images/seeconf/IMG_20190105_173607.jpg)
 
-![云谦](/images/seeconf/IMG_20190105_161421.jpg)
-
-
-![云谦](/images/seeconf/IMG_20190105_161624.jpg)
+![云谦](./images/seeconf/IMG_20190105_161421.jpg)
 
 
-![云谦](/images/seeconf/IMG_20190105_161701.jpg)
+![云谦](./images/seeconf/IMG_20190105_161624.jpg)
 
 
-![云谦](/images/seeconf/IMG_20190105_162129.jpg)
+![云谦](./images/seeconf/IMG_20190105_161701.jpg)
 
 
-![云谦](/images/seeconf/IMG_20190105_162220.jpg)
+![云谦](./images/seeconf/IMG_20190105_162129.jpg)
 
 
-![云谦](/images/seeconf/IMG_20190105_162502.jpg)
+![云谦](./images/seeconf/IMG_20190105_162220.jpg)
 
-![云谦](/images/seeconf/IMG_20190105_162844.jpg)
+
+![云谦](./images/seeconf/IMG_20190105_162502.jpg)
+
+![云谦](./images/seeconf/IMG_20190105_162844.jpg)
 
 *悠鹤
 
-![悠鹤](/images/seeconf/IMG_20190105_164036.jpg)
+![悠鹤](./images/seeconf/IMG_20190105_164036.jpg)
 
-![悠鹤](/images/seeconf/IMG_20190105_165036.jpg)
+![悠鹤](./images/seeconf/IMG_20190105_165036.jpg)
 
-![悠鹤](/images/seeconf/IMG_20190105_170657.jpg)
+![悠鹤](./images/seeconf/IMG_20190105_170657.jpg)
 
-![悠鹤](/images/seeconf/IMG_20190105_170901.jpg)
+![悠鹤](./images/seeconf/IMG_20190105_170901.jpg)
 
 * 工作人员合影
   
-![工作人员合影](/images/seeconf/2019-01-05192306.jpg)
+![工作人员合影](./images/seeconf/2019-01-05192306.jpg)
 
 * 大会参会者集体合影
   
-![工作人员合影](/images/seeconf/IMG_20190105_173608.jpg)
+![工作人员合影](./images/seeconf/IMG_20190105_173608.jpg)
 
 
 * 我与玉伯合影
   
-![工作人员合影](/images/seeconf/IMG_20190105_172608.jpg)
+![工作人员合影](./images/seeconf/IMG_20190105_172608.jpg)
 
 * 我与云谦合影
   
-![工作人员合影](/images/seeconf/IMG_20190105_173509.jpg)
+![工作人员合影](./images/seeconf/IMG_20190105_173509.jpg)
 
 
