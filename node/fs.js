@@ -172,15 +172,24 @@ const  file =  path.join(__dirname,'events.js')
 //     if (err) throw err;
 //   });
 
-  console.log("查看 /tmp 目录");
-fs.readdir(path.join(__dirname,'statics'),function(err, files){
-   if (err) {
-       return console.error(err);
-   }
-   files.forEach( function (file){
-       console.log( file );
-   });
-});
+//   console.log("查看 /tmp 目录");
+// fs.readdir(path.join(__dirname,'statics'),function(err, files){
+//    if (err) {
+//        return console.error(err);
+//    }
+//    files.forEach( function (file){
+//        console.log( file );
+//    });
+// });
 
 fs.truncate(path.join(__dirname,'statics/openFile.txt'), 5, function(err){
 })
+
+fs.link(path.join(__dirname,'statics/openFile.txt'),path.join(__dirname,'statics/link.txt'), function(err){
+})
+
+
+fs.realpath('statics', function (err, resolvedPath) {
+  if (err) throw err;
+  console.log(resolvedPath);
+});
