@@ -1,0 +1,10 @@
+var _class;
+let Tree = test(_class = class Tree1 {
+    constructor(){
+        this.data = 'chenzhen';
+    }
+}) || _class;
+function test(target) {
+    target.name = 'foo';
+}
+console.log(Tree);

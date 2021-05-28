@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\node\\fs.js"
+            "program": "${workspaceFolder}\\node\\redis.js"
         }
     ]
 }
