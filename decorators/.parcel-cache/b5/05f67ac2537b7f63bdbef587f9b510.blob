@@ -1,9 +1,0 @@
-class Tree {
-    constructor(){
-        this.data = null;
-    }
-}
-function test(target) {
-    target.name = 'foo';
-}
-console.log(new Tree().name);

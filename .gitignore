@@ -1,10 +1,10 @@
 .DS_Store
 node_modules
-/dist
+dist
 yarn.lock
 package-lock.json
-/**/.cache
-/**/.parcel-cahe
+.cache
+.parcel-cahe
 
 # local env files
 .env.local
