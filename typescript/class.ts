@@ -38,3 +38,39 @@ console.log(dona.run())
 console.log(Dog.age)
 
 // dona.priv();
+
+// 泛型
+class Stone<T>{
+    private _value: T;
+    constructor(val: T) {
+        this._value = val;
+    }
+}
+let p = new Stone<number>(12)
+
+interface Item {
+    name: string;
+}
+
+class DataManager<T extends Item>{
+    private data: T[];
+    constructor(data: T[]) {
+       this.data = data;
+    }
+
+    getItem(index: number){
+        this.data[index]
+    }
+}
+let dm = new DataManager([{name:'chenzhen'}])
+
+
+// function loggingIdentity<T extends Logging>(arg: T): T {
+//     console.log(arg.length);  // Error: T doesn't have .length
+//     return arg;
+// }
+
+function loggingIdentity<T>(arg: T[]): T[] {
+    console.log(arg.length);  // Array has a .length, so no more error
+    return arg;
+}
