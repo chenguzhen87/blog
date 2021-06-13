@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reactive</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.1.1/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id='root'>
+        {{num}}
+        <div>name:{{obj.name}}</div>
+        <button @click="add">增加</button>
+        <button @click="change">更改名字</button>
+    </div>
+    <script>
+      const   { reactive,ref,isReactive,isProxy,isRef,isReadonly} = Vue;
+      Vue.createApp({
+          setup(props){
+              //  返回一个Ref类型对象,他的value是个深层次响应的
+
+
+              // 传一个基本类型时
+              const num = ref(0);
+              console.log(`num:${isRef(num)}`); // true
+              // 传ref类型对象,直接返回改对象
+              const num1 = ref(num);
+              
+              console.log(num1 === num); // true
+              // 当传一个对象，
+              const obj = ref({name:'chenzhen'});
+              console.log(`obj.value:${isReactive(obj.value)}`); // true
+              // proxy 对象包含reactive和readonly对象
+              console.log(`obj.value:${isProxy(obj.value)}`); // true
+              console.log(`obj:${isRef(obj)}`); // true
+
+            //当 ref 作为响应式对象的 property 被访问或更改时，为使其行为类似于普通 property，它会自动展开内部值：
+                const count = ref(0)
+                const state = reactive({
+                count
+                })
+
+                console.log(state.count) // 0
+
+                state.count = 1
+                console.log(count.value) // 1
+
+// 如果将新的 ref 赋值给现有 ref 的 property，将会替换旧的 ref：
+                const otherCount = ref(2)
+
+                state.count = otherCount
+                console.log(state.count) // 2
+                console.log(count.value) // 1
+
+
+                // Ref 展开仅发生在被响应式 Object 嵌套的时候。当从 Array 或原生集合类型如 Map访问 ref 时，不会进行展开：
+
+                const books = reactive([ref('Vue 3 Guide')])
+                // 这里需要 .value
+                console.log(books[0].value)
+
+                const map = reactive(new Map([['count', ref(0)]]))
+                // 这里需要 .value
+                console.log(map.get('count').value)
+
+
+            const change = ()=>{
+                obj.value.name = '陈真';
+            }
+
+            const add = ()=>{
+                num.value = num.value + 1;
+            }
+              return {
+                  num,
+                  add,
+                  change,
+                  obj
+              }
+          }
+      }).mount("#root");
+      debugger
+    </script>
+</body>
+</html>
