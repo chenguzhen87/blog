@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>声明式渲染</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.1.1/dist/vue.global.js"></script>
+</head>
+<body>
+        <div id="counter">
+            Counter: {{ counter }}
+            <todo-item />
+          </div>
+    <script>
+
+        const Counter = {
+            data() {
+                return {
+                counter: 0
+                }
+            }
+        }
+
+        const app = Vue.createApp({Counter});
+
+        // 定义名为 todo-item 的新组件
+        app.component('todo-item', {
+        template: `<li>This is a todo</li>`
+        })
+
+
+        // 返回proxy对象
+        const proxy =  app.mount('#counter');
+        proxy.counter = 3;
+        console.log(app);
+        console.log(proxy);
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自定义选项合并策略</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.1.1/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="overview"></div>
+    <script>
+        const app = Vue.createApp({
+        custom: 'hello!'
+        })
+
+        app.config.optionMergeStrategies.custom = (toVal, fromVal) => {
+            debugger
+        console.log(fromVal, toVal)
+        // => "goodbye!", undefined
+        // => "hello", "goodbye!"
+        return fromVal || toVal
+        }
+
+        app.mixin({
+        custom: 'goodbye!',
+        created() {
+            console.log(this.$options.custom) // => "hello!"
+        }
+        })
+
+        console.log(app)
+        app.mount('#overview')
+    </script>
+</body>
+</html>

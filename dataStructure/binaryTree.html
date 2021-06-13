@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Node(value){
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+
+        var nodeA = new Node("a");
+        var nodeB = new Node("b");
+        var nodeC = new Node("c");
+        var nodeD = new Node("d");
+        var nodeE = new Node("e");
+        var nodeF = new Node("f");
+        var nodeG = new Node("g");
+
+        nodeA.left = nodeB;
+        nodeA.right = nodeC;
+        nodeB.left = nodeD;
+        nodeB.right = nodeE;
+        nodeC.left = nodeF;
+        nodeC.right = nodeG;
+//前序遍历：先打印当前节点，再打印左边子树的节点，再打印右边子树的节点
+//中序遍历：先打印左边子树的节点，再打印当前节点，再打印右边子树的节点
+//后序遍历：先打印左边子树的节点，再打印右边子树的节点，再打印当前节点
+
+
+        //-------前序遍历---begin-----//
+        function DLR(root){//前序遍历
+            if(root == null) return;
+            console.log(root.value);//先输出
+            DLR(root.left);
+            DLR(root.right);
+        }
+        DLR(nodeA);//a b d e c f g
+        //-------前序遍历---end-----//
+
+        //-------中序遍历---begin-----//
+        function LDR(root){//前序遍历
+            if(root == null) return;
+            LDR(root.left);
+            console.log(root.value);
+            LDR(root.right);
+        }
+        LDR(nodeA);//d b e a f c g
+        //-------中序遍历---end-----//
+
+        //-------后序遍历---begin-----//
+        function LRD(root){//前序遍历
+            if(root == null) return;
+            LRD(root.left);
+            LRD(root.right);
+            console.log(root.value);
+        }
+        LRD(nodeA);//d e b f g c a
+        //-------后序遍历---end-----//
+    </script>
+</body>
+</html>

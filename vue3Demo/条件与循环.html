@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>条件与循环</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.1.1/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="conditional-rendering">
+        <span v-if="seen">现在你看到我了</span>
+    </div>
+
+    <div id="list-rendering">
+    <ol>
+        <li v-for="todo in todos">
+        {{ todo.text }}
+        </li>
+    </ol>
+    </div>
+    <script>
+   const ConditionalRendering = {
+        data() {
+            return {
+            seen: true
+            }
+        }
+    }
+
+    Vue.createApp(ConditionalRendering).mount('#conditional-rendering')
+    const ListRendering = {
+        data() {
+            return {
+            todos: [
+                { text: 'Learn JavaScript' },
+                { text: 'Learn Vue' },
+                { text: 'Build something awesome' }
+            ]
+            }
+        }
+    }
+
+
+    Vue.createApp(ListRendering).mount('#list-rendering')
+
+    </script>
+</body>
+</html>

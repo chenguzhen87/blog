@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>处理用户输入</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.1.1/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="event-handling">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">反转 Message</button>
+  </div>
+
+  <div id="two-way-binding">
+    <p>{{ message }}</p>
+    <input v-model="message" />
+  </div>
+    <script>
+    const EventHandling = {
+        data() {
+            return {
+            message: 'Hello Vue.js!'
+            }
+        },
+        methods: {
+            reverseMessage() {
+            this.message = this.message
+                .split('')
+                .reverse()
+                .join('')
+            }
+        }
+    }
+
+    Vue.createApp(EventHandling).mount('#event-handling')
+
+    const TwoWayBinding = {
+        data() {
+            return {
+            message: 'Hello Vue!'
+            }
+        }
+    }
+
+   Vue.createApp(TwoWayBinding).mount('#two-way-binding')
+
+
+    </script>
+</body>
+</html>
