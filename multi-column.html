@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多列布局</title>
+    <style>
+        html,body {
+            padding: 0;
+            margin: 0;
+        }
+        #container {
+            column-count: 2;
+            column-gap: 10px;
+        }
+        .item{
+            background:red;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .item:nth-child(4){
+            height: 250px;
+            background: blue;
+        }
+
+        .item:nth-child(7){
+            height: 300px;
+            background: rgb(159, 159, 235);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item">111111111111111</div>
+        <div class="item">22222222222222</div>
+        <div class="item">333333333333333333333</div>
+        <div class="item">444444444444444444</div>
+        <div class="item">55555555555555555</div>
+        <div class="item">66666666666666666</div>
+        <div class="item">777777777777777</div>
+        <div class="item">888888888888888888</div>
+    </div>
+</body>
+</html>
