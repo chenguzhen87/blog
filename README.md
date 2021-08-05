@@ -1,4 +1,6 @@
 # [Dan Abramov blog](https://overreacted.io/)
+# [OSI七层协议模型和TCP/IP四层模型](https://blog.csdn.net/freeking101/article/details/77977941)
+
 
 # [C10K和C1000K回顾](https://www.cnblogs.com/sreops/p/14019212.html)
 
