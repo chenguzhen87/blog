@@ -1,3 +1,5 @@
+# [一个全球代理为 Go 模块而生](https://goproxy.io/zh/)
+# [go第三方包查找网站](https://go.dev)
 # [Dan Abramov blog](https://overreacted.io/)
 # [OSI七层协议模型和TCP/IP四层模型](https://blog.csdn.net/freeking101/article/details/77977941)
 
