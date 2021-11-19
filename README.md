@@ -1,5 +1,6 @@
 
 
+##  [Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
 ##  [Gitlab的安装及使用](https://www.cnblogs.com/hgzero/p/14088215.html)
 ##  [react 的新文档，风格很不错](https://beta.reactjs.org/)
 ## [SQL不走索引的几种常见情况](https://blog.csdn.net/Muscleheng/article/details/94393024)
