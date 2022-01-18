@@ -1,5 +1,7 @@
 
 
+
+## [如何编写一个d.ts文件](https://segmentfault.com/a/1190000009247663)
 ## [快速编写第三方包 .d.ts 类型声明指南](https://zhuanlan.zhihu.com/p/58123993)
 ## [Node 最新 Module 导入导出规范](https://zhuanlan.zhihu.com/p/419079829)
 ## [浅谈script标签中的async和defer](https://www.cnblogs.com/jiasm/p/7683930.html)
