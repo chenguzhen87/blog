@@ -1,4 +1,7 @@
 
+
+
+## [Node 最新 Module 导入导出规范](https://zhuanlan.zhihu.com/p/419079829)
 ## [浅谈script标签中的async和defer](https://www.cnblogs.com/jiasm/p/7683930.html)
 ##  [腾讯文档】资源分享-长期更新2](https://docs.qq.com/sheet/DS2NzVG13d1dsckVx)
 ##  [Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
