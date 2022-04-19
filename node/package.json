@@ -6,9 +6,10 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "colors": "^1.4.0",
+    "inquirer": "^8.2.2",
     "minimist": "^1.2.6",
     "progress": "^2.0.3",
-    "redis": "^3.1.2"
+    "redis": "^4.0.6"
   },
   "devDependencies": {},
   "scripts": {
