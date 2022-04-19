@@ -4,6 +4,10 @@
   "description": "",
   "main": "events.js",
   "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0",
+    "minimist": "^1.2.6",
+    "progress": "^2.0.3",
     "redis": "^3.1.2"
   },
   "devDependencies": {},

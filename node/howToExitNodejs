@@ -1,0 +1,28 @@
+// 如何退出 Node.js 程序
+const express = require('express')
+const process = require('process')
+
+for( item in process){
+    console.log(`${item}`,process[item])
+}
+
+const app = express()
+
+app.get('/', (req, res) => {
+  res.send('Hi!')
+})
+
+const server = app.listen(3000, () => console.log('Server ready'))
+
+
+setTimeout(() => {
+    process.kill(process.pid, 'SIGTERM')
+}, 3000);
+
+
+process.on('SIGINT', () => {
+    server.close(() => {
+      console.log('Process terminated')
+    })
+  })
+  
