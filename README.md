@@ -1,52 +1,61 @@
 
 
-# [SQL不走索引的几种常见情况](https://blog.csdn.net/Muscleheng/article/details/94393024)
-# [MySQL数据库面试题（2020最新版）](https://thinkwon.blog.csdn.net/article/details/104778621?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9.control)
-# [一个全球代理为 Go 模块而生](https://goproxy.io/zh/)
-# [go第三方包查找网站](https://go.dev)
-# [Dan Abramov blog](https://overreacted.io/)
-# [OSI七层协议模型和TCP/IP四层模型](https://blog.csdn.net/freeking101/article/details/77977941)
+
+## [如何编写一个d.ts文件](https://segmentfault.com/a/1190000009247663)
+## [快速编写第三方包 .d.ts 类型声明指南](https://zhuanlan.zhihu.com/p/58123993)
+## [Node 最新 Module 导入导出规范](https://zhuanlan.zhihu.com/p/419079829)
+## [浅谈script标签中的async和defer](https://www.cnblogs.com/jiasm/p/7683930.html)
+##  [腾讯文档】资源分享-长期更新2](https://docs.qq.com/sheet/DS2NzVG13d1dsckVx)
+##  [Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
+##  [Gitlab的安装及使用](https://www.cnblogs.com/hgzero/p/14088215.html)
+##  [react 的新文档，风格很不错](https://beta.reactjs.org/)
+## [SQL不走索引的几种常见情况](https://blog.csdn.net/Muscleheng/article/details/94393024)
+## [MySQL数据库面试题（2020最新版）](https://thinkwon.blog.csdn.net/article/details/104778621?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9.control)
+## [一个全球代理为 Go 模块而生](https://goproxy.io/zh/)
+## [go第三方包查找网站](https://go.dev)
+## [Dan Abramov blog](https://overreacted.io/)
+## [OSI七层协议模型和TCP/IP四层模型](https://blog.csdn.net/freeking101/article/details/77977941)
 
 
-# [C10K和C1000K回顾](https://www.cnblogs.com/sreops/p/14019212.html)
+## [C10K和C1000K回顾](https://www.cnblogs.com/sreops/p/14019212.html)
 
-# [showmebug](https://www.showmebug.com/)
-# [astexplorer](https://astexplorer.net/#/2AmVrGuGVJ)
-# [bundlephobia-BundlePhobia用于分析npm package的依赖、bundle后的大小、下载速度预估等等，帮助你在引用一个package之前了解引入该package的代价](https://bundlephobia.com/)
-# [Vue SFC Playground](https://sfc.vuejs.org/)
-# [vue2.xx在线模板编译成渲染函数网站](https://template-explorer.vuejs.org/#)
-# [vue3.xx在线模板编译成渲染函数网站](https://vue-next-template-explorer.netlify.app/#)
-# [如何获取小程序前端代码](https://blog.csdn.net/qq_34035425/article/details/84892774)
-# [createapp](https://createapp.dev/)
-# [图文详解两种算法：深度优先遍历（DFS）和广度优先遍历（BFS）](https://developer.51cto.com/art/202004/614590.htm)
-# [一个提供免费HTTPS证书申请的网站](https://freessl.cn/)
-# [CORS与@CrossOrigin详解](https://zhuanlan.zhihu.com/p/66789473)
-# [android sdk 离线 安装包_Hybrid App 离线包方案实践](https://blog.csdn.net/weixin_30036893/article/details/112138378)
-# [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
-# [浏览器工作原理与实践](https://blog.poetries.top/browser-working-principle/)
-# [关于手机webview内核、默认浏览器、各家小程序的渲染层浏览器的区别和兼容性](https://ask.dcloud.net.cn/article/1318)
-# [Chrome内部协议](https://blog.csdn.net/long2010110/article/details/81018657)
-# [ECMAScript-262 中文版](https://ecma262.docschina.org/#sec-intro)
+## [showmebug](https://www.showmebug.com/)
+## [astexplorer](https://astexplorer.net/#/2AmVrGuGVJ)
+## [bundlephobia-BundlePhobia用于分析npm package的依赖、bundle后的大小、下载速度预估等等，帮助你在引用一个package之前了解引入该package的代价](https://bundlephobia.com/)
+## [Vue SFC Playground](https://sfc.vuejs.org/)
+## [vue2.xx在线模板编译成渲染函数网站](https://template-explorer.vuejs.org/#)
+## [vue3.xx在线模板编译成渲染函数网站](https://vue-next-template-explorer.netlify.app/#)
+## [如何获取小程序前端代码](https://blog.csdn.net/qq_34035425/article/details/84892774)
+## [createapp](https://createapp.dev/)
+## [图文详解两种算法：深度优先遍历（DFS）和广度优先遍历（BFS）](https://developer.51cto.com/art/202004/614590.htm)
+## [一个提供免费HTTPS证书申请的网站](https://freessl.cn/)
+## [CORS与@CrossOrigin详解](https://zhuanlan.zhihu.com/p/66789473)
+## [android sdk 离线 安装包_Hybrid App 离线包方案实践](https://blog.csdn.net/weixin_30036893/article/details/112138378)
+## [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
+## [浏览器工作原理与实践](https://blog.poetries.top/browser-working-principle/)
+## [关于手机webview内核、默认浏览器、各家小程序的渲染层浏览器的区别和兼容性](https://ask.dcloud.net.cn/article/1318)
+## [Chrome内部协议](https://blog.csdn.net/long2010110/article/details/81018657)
+## [ECMAScript-262 中文版](https://ecma262.docschina.org/#sec-intro)
 
-# [前端-玩转video](http://useragent.kuzhazha.com/PC/)
-# [ua标识网](http://useragent.kuzhazha.com/PC/)
+## [前端-玩转video](http://useragent.kuzhazha.com/PC/)
+## [ua标识网](http://useragent.kuzhazha.com/PC/)
 
-#《JavaScript高级程序设计》
+##《JavaScript高级程序设计》
 http://online.fliphtml5.com/jfls/fgqp/#p=1
-# 收集平常关注的好文章，以备自己查阅参考
-# MySlide 是一个提供PPT分享服务的平台，在这里你可以找到你想要的PPT。
+## 收集平常关注的好文章，以备自己查阅参考
+## MySlide 是一个提供PPT分享服务的平台，在这里你可以找到你想要的PPT。
 https://myslide.cn/slides/21201#
-# Github秘籍
+## Github秘籍
 https://www.kancloud.cn/thinkphp/github-tips/37879
 
-# esprima 源代码转成ast在线网站
+## esprima 源代码转成ast在线网站
 https://www.jianshu.com/p/32db2f258986
 https://esprima.org/demo/parse.html#
 # JSDoc 中文文档
 https://www.html.cn/doc/jsdoc/tags-class.html
-# 使用all-contributors-cli生成贡献者名单
+## 使用all-contributors-cli生成贡献者名单
 https://www.jianshu.com/p/0c61cec0f5d1
-# octotree — 树形展示 Github 项目代码
+## octotree — 树形展示 Github 项目代码
 https://www.runoob.com/w3cnote/octotree-github-repo.html
 ## Microsoft Visual Studio Code 中文手册
 https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/
