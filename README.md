@@ -1,3 +1,4 @@
+## [24天从 Node 转 Rust ：第2天 从 npm 到 cargo](https://zhuanlan.zhihu.com/p/455087919)
 ## [rust-声明宏基础语法](https://zhuanlan.zhihu.com/p/444424759)
 ## [订单系统系统设计](https://www.jianshu.com/p/ee66b1294820)
 ## [skypack](https://www.skypack.dev/)
